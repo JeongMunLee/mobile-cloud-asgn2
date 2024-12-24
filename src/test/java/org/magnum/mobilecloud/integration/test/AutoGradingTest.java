@@ -110,6 +110,7 @@ public class AutoGradingTest {
 	public void testAddGetVideo() throws Exception {
 		readWriteVideoSvcUser1.addVideo(video);
 		Collection<Video> stored = readWriteVideoSvcUser1.getVideoList();
+		System.out.println(stored);
 		assertTrue(stored.contains(video));
 	}
 

@@ -68,12 +68,7 @@ import org.magnum.mobilecloud.video.AutoGradeSpec;
  * 
  */
 public class AutoGrading {
-
-	
-
 	public static void main(String[] args) throws Exception {
 		AutoGradeSpec.grade(args);
 	}
-
-
 }

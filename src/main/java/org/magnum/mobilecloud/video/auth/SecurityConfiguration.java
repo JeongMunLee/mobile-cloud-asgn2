@@ -13,7 +13,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @Configuration
 @Order(1)
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
-
     /**
      *
      *  WARNING!!!!!
